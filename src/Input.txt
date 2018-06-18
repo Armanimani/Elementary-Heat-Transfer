@@ -1,0 +1,24 @@
+Boundary condition (in order ---> Left ; Right ; Top ; Bottom ) ( D/N ) (type D if u have boundary drichlet conditon & N if u have neumann boundary conditon)
+N
+N
+D
+D
+Bodary magnitude (in order -------> Left ; Right ; Top ; Bottom ) ( default unit is C for Drichlet and W/m^2 for N )
+8000
+0
+0
+100
+Q =     ( Type the Q of system , Default unit is W/m^3)
+0
+K =     ( Type the K of system , Default unit is W/m/C )     
+45
+Step =   ( Type the step for mesh generating  , Default unit is m )
+0.02
+Ly =     ( Type y length of media , Default unit is m )
+1
+Lx =     ( Type x length of media , Default unit is m )
+1
+time_step =     ( Type time step for Non-Steady solution )
+0.1
+Max Time =      ( Type the max time in u which wanna calculate the Non-Steady solution )
+0.5
